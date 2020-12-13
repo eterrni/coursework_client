@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #FAF0E6;"
+            xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="by.bsuir.kp.сontroller.RegistrationController">
+    <children>
+        <TextField fx:id="loginField" layoutX="43.0" layoutY="185.0" prefHeight="26.0" prefWidth="222.0"
+                   promptText="login">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </TextField>
+        <PasswordField fx:id="passwordField" layoutX="341.0" layoutY="185.0" prefHeight="26.0" prefWidth="222.0"
+                       promptText="password">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </PasswordField>
+        <Label layoutX="169.0" layoutY="52.0" prefHeight="74.0" prefWidth="262.0" text="Регистрация" textFill="#a47716">
+            <font>
+                <Font name="Gigi" size="44.0"/>
+            </font>
+        </Label>
+        <Button fx:id="signUpButton" layoutX="223.0" layoutY="299.0" mnemonicParsing="false" prefHeight="30.0"
+                prefWidth="153.0" text="Зарегестрироваться">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+        <Button fx:id="goToWelcomePageButton" layoutX="17.0" layoutY="360.0" mnemonicParsing="false" text="Назад"/>
+
+    </children>
+</AnchorPane>

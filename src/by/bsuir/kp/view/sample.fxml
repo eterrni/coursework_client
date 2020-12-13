@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+            prefWidth="700.0" style="-fx-background-color: #FAF0E6;" xmlns="http://javafx.com/javafx/10.0.2-internal"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="by.bsuir.kp.сontroller.WelcomePageController">
+    <children>
+        <TextField fx:id="loginField" layoutX="239.0" layoutY="184.0" prefHeight="26.0" prefWidth="222.0"
+                   promptText="login">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </TextField>
+        <PasswordField fx:id="passwordField" layoutX="239.0" layoutY="243.0" prefHeight="26.0" prefWidth="222.0"
+                       promptText="password">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </PasswordField>
+
+        <Label layoutX="217.0" layoutY="58.0" prefHeight="74.0" prefWidth="266.0" text="Авторизация"
+               textAlignment="RIGHT" textFill="#a47716">
+            <font>
+                <Font name="Gigi" size="43.0"/>
+            </font>
+        </Label>
+        <Button fx:id="signInButton" layoutX="190.0" layoutY="321.0" mnemonicParsing="false" prefHeight="26.0"
+                prefWidth="98.0" text="Войти">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+        <Button fx:id="signUpButton" layoutX="384.0" layoutY="321.0" mnemonicParsing="false" prefHeight="30.0"
+                prefWidth="153.0" text="Зарегестрироваться">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane prefHeight="400.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/10.0.2-internal"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="by.bsuir.kp.сontroller.NewProductPageController">
+    <children>
+        <Label layoutX="27.0" layoutY="24.0" text="Модель"/>
+        <Label layoutX="27.0" layoutY="59.0" text="Тип"/>
+        <Label layoutX="27.0" layoutY="94.0" text="Производитель"/>
+        <Label layoutX="27.0" layoutY="129.0" text="Поставщик"/>
+        <Label layoutX="27.0" layoutY="164.0" text="Год"/>
+        <Label layoutX="27.0" layoutY="199.0" text="Количество"/>
+        <Label layoutX="27.0" layoutY="234.0" text="Флеш"/>
+        <Label layoutX="27.0" layoutY="269.0" text="Наличие"/>
+        <TextField fx:id="modelField" layoutX="132.0" layoutY="20.0" prefHeight="4.0" prefWidth="149.0"/>
+        <TextField fx:id="typeField" layoutX="132.0" layoutY="55.0"/>
+        <ChoiceBox fx:id="choiceProducer" layoutX="132.0" layoutY="90.0" prefWidth="150.0"/>
+        <ChoiceBox fx:id="choiceProvider" layoutX="132.0" layoutY="125.0" prefWidth="150.0"/>
+        <TextField fx:id="yearField" layoutX="132.0" layoutY="160.0"/>
+        <TextField fx:id="countField" layoutX="132.0" layoutY="195.0"/>
+        <TextField fx:id="fleshField" layoutX="132.0" layoutY="230.0"/>
+        <TextField fx:id="statusField" layoutX="132.0" layoutY="265.0"/>
+        <Button fx:id="addProduct" layoutX="35.0" layoutY="329.0" mnemonicParsing="false" text="Добавить"/>
+        <Button fx:id="goToMenuPage" layoutX="206.0" layoutY="329.0" mnemonicParsing="false" text="Назад"/>
+    </children>
+</AnchorPane>

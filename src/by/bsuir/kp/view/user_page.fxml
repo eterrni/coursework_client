@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+            prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="by.bsuir.kp.сontroller.UserPageController">
+    <top>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+
+            <TableView fx:id="tableUser" prefHeight="202.0" prefWidth="600.0">
+                <columns>
+                    <TableColumn fx:id="idUser" prefWidth="131.20001828670502" text="Номер"/>
+                    <TableColumn fx:id="loginUser" prefWidth="235.19998168945312" text="Логин"/>
+                    <TableColumn fx:id="roleUser" prefWidth="234.79995727539062" text="Роль"/>
+
+                </columns>
+
+
+            </TableView>
+
+        </AnchorPane>
+    </top>
+    <left>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER"/>
+    </left>
+    <center>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER"/>
+    </center>
+    <right>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER"/>
+    </right>
+    <bottom>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <children>
+
+                <Button fx:id="exit" layoutX="535.0" layoutY="162.0" mnemonicParsing="false" text="Выйти"/>
+                <Button fx:id="delete_user" layoutX="270.0" layoutY="114.0" mnemonicParsing="false" text="Удалить"/>
+                <Button fx:id="appoint_an_administrator" layoutX="14.0" layoutY="59.0" mnemonicParsing="false"
+                        text="Назначить администратором"/>
+                <Button fx:id="appoint_an_user" layoutX="384.0" layoutY="59.0" mnemonicParsing="false"
+                        text="Поменять статус на пользователя"/>
+                <Button fx:id="go_to_menu" layoutX="14.0" layoutY="162.0" mnemonicParsing="false" text="Назад"/>
+
+            </children>
+        </AnchorPane>
+    </bottom>
+</BorderPane>

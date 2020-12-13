@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+            prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="by.bsuir.kp.сontroller.AdminHomeController">
+    <top>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <TableView fx:id="tableProducts" prefHeight="202.0" prefWidth="600.0">
+                <columns>
+                    <TableColumn fx:id="modelColumn" prefWidth="75.0" text="Модель"/>
+                    <TableColumn fx:id="typeColumn" prefWidth="60.20001220703125" text="Тип"/>
+                    <TableColumn fx:id="producerColumn" prefWidth="103.0" text="Производитель"/>
+                    <TableColumn fx:id="countColumn" prefWidth="76.19999694824219" text="Количество"/>
+                    <TableColumn fx:id="yearColumn" prefWidth="47.20001220703125" text="Год"/>
+                    <TableColumn fx:id="providerColumn" prefWidth="77.0" text="Поставщик"/>
+                    <TableColumn fx:id="fleshColumn" prefWidth="72.39996337890625" text="Флеш"/>
+                    <TableColumn fx:id="statusColumn" prefWidth="93.20001220703125" text="Статус"/>
+                </columns>
+            </TableView>
+        </AnchorPane>
+    </top>
+    <left>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER"/>
+    </left>
+    <center>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER"/>
+    </center>
+    <right>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER"/>
+    </right>
+    <bottom>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <children>
+                <Button fx:id="add_new_product" layoutX="22.0" layoutY="14.0" mnemonicParsing="false"
+                        text="Добавить товар"/>
+                <Button fx:id="add_new_producer" layoutX="213.0" layoutY="14.0" mnemonicParsing="false"
+                        text="Добавить производителя"/>
+                <Button fx:id="add_new_provider" layoutX="435.0" layoutY="14.0" mnemonicParsing="false"
+                        text="Добавить поставщика"/>
+                <Button fx:id="delete_product" layoutX="22.0" layoutY="73.0" mnemonicParsing="false" prefHeight="26.0"
+                        prefWidth="100.0" text="Удалить товар"/>
+                <Button fx:id="find_product" layoutX="245.0" layoutY="73.0" mnemonicParsing="false"
+                        text="Поиск товара"/>
+                <Button fx:id="exit" layoutX="535.0" layoutY="162.0" mnemonicParsing="false" text="Выйти"/>
+                <Button fx:id="user_management" layoutX="22.0" layoutY="136.0" mnemonicParsing="false"
+                        text="Управление пользователями"/>
+                <Button fx:id="show_all_products" layoutX="431.0" layoutY="73.0" mnemonicParsing="false"
+                        text="Отобразить все товары"/>
+            </children>
+        </AnchorPane>
+    </bottom>
+</BorderPane>
